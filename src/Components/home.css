@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+
+
+.homepage {
+   
+}
+
+  .header-content p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+  }
+
+  .header-content  {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  }
+
+  .header-content .right {
+    padding: 60px;
+  }
+
+  .header-content .right img{
+    width: 600px;
+  }
+
+  .bodycontent{
+    background-color: black;
+  }
+
+  .bodycontent h1{
+    text-align: center;
+  }
+  
+  

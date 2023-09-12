@@ -1,0 +1,61 @@
+.card {
+  background-color: #fff;
+  box-shadow: 3px 6px 4px rgba(0, 0, 0, 0.2); /* Add your desired shadow properties */
+
+  height:40vh;
+
+  margin: 40px;
+  border-radius: 50px;
+
+
+  text-align: center;
+
+
+
+  
+  /* display: flex; */
+  color: #0d0e10;
+ 
+}
+
+.card-title {
+  font-size: 140px;
+  font-weight: bold;
+  text-shadow: 6px 2px 3px rgba(0, 0, 0, 0.3); /* Add your desired text shadow properties */
+}
+
+.card-content {
+  font-size: 16px;
+  margin-top: 10px;
+}
+@media screen and (max-width: 960px) {
+.card-title {
+        font-size: 80px;
+      
+        text-shadow: 6px 2px 3px rgba(0, 0, 0, 0.3); /* Add your desired text shadow properties */
+      }
+      
+
+      .card {
+        background-color: #fff;
+        box-shadow: 3px 6px 4px rgba(0, 0, 0, 0.2); /* Add your desired shadow properties */
+      
+        height:30vh;
+      
+        margin: 40px;
+        border-radius: 50px;
+      
+      
+        text-align: center;
+      
+      
+      
+        
+        /* display: flex; */
+        color: #0d0e10;
+       
+      }
+      
+
+
+}

@@ -1,0 +1,40 @@
+.card {
+ height: 80vh;
+ width: 90vh;
+  border-radius: 30px;
+  align-items: center;
+  font-size: 3rem;
+  
+  background-color: #ffffff;
+  color: #000;
+
+  justify-content: center;
+}
+.btnsection{
+    flex-direction: column;
+}
+
+.btncard {
+  flex-direction: column;
+  padding: 3px;
+  color: #ffffff;
+  background-color: black;
+margin: 30px;
+  
+
+  width: 100%;
+  font-size: 40px;
+
+  
+}
+
+.btnsection{
+  flex-direction: row;
+}
+
+.showcard {
+  padding: 30px;
+  height: 70vh;
+  border-radius: 30px;
+  align-items: center;
+}

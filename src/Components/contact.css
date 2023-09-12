@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+
+.contactcontent{
+  
+}
+.contactcontent h1{
+    text-align: center;
+}
+
+.contactcontent input{
+    width: 300px;
+    height: 40px;
+    border: 1.5px solid black;
+    border-radius: 5px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    color: black;
+    padding: 10px;
+}
+
+.contactcontent textarea{
+    margin-top: 20px;
+    width: 300px;
+    height: 200px;
+    border: 1.5px solid black;
+    border-radius: 5px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    color: black;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.contactcontent button{
+    width: 300px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    margin-bottom: 110px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}

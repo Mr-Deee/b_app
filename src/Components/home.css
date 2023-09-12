@@ -1,39 +1,76 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
 
-
 .homepage {
    
 }
 
-  .header-content p {
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 25px;
-  }
+.left p{
+  font-size: 50px;
+  margin: 60px;
 
-  .header-content  {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-  }
+}
+.header-content {
+  display: flex;
+  flex-direction: row; /* Default: side-by-side for larger screens */
+  justify-content: center;
+  align-items: center;
+}
 
-  .header-content .right {
-    padding: 60px;
-  }
+.header-content p {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 25px;
+  flex: 1; /* Take up remaining space */
+}
+.homeextcard{
+  background-color: black;
+  height: 200px;
+  color: bisque;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  margin-right: 30px;
+  border-radius: 30px;
+  padding: 40px;
 
-  .header-content .right img{
-    width: 600px;
-  }
+}
+.header-content .right {
+  padding: 60px;
+  flex: 1; /* Take up remaining space */
+}
 
-  .bodycontent{
-    background-color: black;
-  }
+.header-content .right img {
+  max-width: 100%; /* Ensure the image doesn't overflow its container */
+}
 
-  .bodycontent h1{
+.bodycontent {
+  background-color: black;
+}
+
+.bodycontent h1 {
+  text-align: center;
+}
+
+@media screen and (max-width: 960px) {
+  .header-content {
+    flex-direction: column; /* On mobile, stack elements vertically */
     text-align: center;
+    font-size: 30px;
   }
-  
-  
-  @media screen and (max-width: 960px) {
 
-    
+  .header-content .right img {
+    max-width: 80%; /* Adjust the image width for mobile */
+    margin-top: 4px; /* Add some space between text and image */
   }
+
+  .header-content p,
+  .header-content .right {
+    padding: 10px; /* Adjust padding for mobile */
+  }
+
+  .left p{
+    font-size: 20px;
+    margin-top: 10;
+    margin-bottom: 5px;
+
+
+  }
+}

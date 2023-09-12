@@ -10,7 +10,10 @@
 .aboutcontent h1 {
   font-size: 60px;
 }
+.left h1{
 
+  margin-left: 72px;
+}
 .aboutcontent p {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 25px;
@@ -22,8 +25,9 @@
 }
 
 .aboutcontent .left {
-  padding: 30px;
+  padding: 8px;
   flex: 1; /* Added */
+  font-size: 20px;
 }
 
 .aboutcontent .right img {
@@ -34,8 +38,18 @@
   .aboutcontent {
     flex-direction: column; /* On mobile, stack elements vertically */
     text-align: center;
+    font-size: 12px;
   }
-
+  .aboutcontent h1 {
+    font-size: 30px;
+padding-left: 30px;
+  }
+  
+  .aboutcontent p {
+    font-size: 16px;
+    padding: 3px;
+    margin-top: 12px;/* Adjust text size for mobile */
+  }
   .aboutcontent .right img {
     max-width: 80%; /* Adjust the image width for mobile */
     margin-top: 20px; /* Add some space between text and image */
@@ -43,14 +57,17 @@
 
   .aboutcontent .left,
   .aboutcontent .right {
-    padding: 10px; /* Adjust padding for mobile */
+    padding: 10px;
+     /* Adjust padding for mobile */
   }
 
   .page-icon {
     font-size: 80px;
   }
 }
-
+.left{
+  font-size: 2px;
+}
 /* Footer CSS */
 .footer__container {
   background-color: #000000;

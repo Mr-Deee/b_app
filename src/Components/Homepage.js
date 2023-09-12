@@ -24,8 +24,13 @@ function Homepage() {
 
                 <div className="shopping-img"></div>
             </div>
-          <div className="bodycontent">
+          {/* <div className="bodycontent">
           <h1>What you will write</h1>
+       </div> */}
+
+       <div className="homeextcard">
+
+
        </div>
           
           </div>

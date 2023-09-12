@@ -8,7 +8,6 @@ function About() {
       <div className="left">
         <h1>About</h1>
         <p>
-          {" "}
           Our incredible journey from a start up to a global Innovation Hub
           Centre, our vision to deliver a Better Future for Digital
           Transformation for our clients and build digital product that create

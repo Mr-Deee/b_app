@@ -1,81 +1,47 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
-
 .aboutcontent {
-  display: flex; /* Added */
-  flex-direction: row; /* Default: side-by-side for larger screens */
-  padding: 10px;
-  align-items: left;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
 }
 
-.aboutcontent h1 {
-  font-size: 60px;
+.left {
+  border-radius: 30px;
+  flex: 3;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Add shadow to the left side */
+  padding: 10px;
 }
 .left h1{
-
-  margin-left: 72px;
+margin-left: 40%;
+  justify-content: center;
+  align-items: center;
 }
-.aboutcontent p {
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 25px;
+.left p{
+  font-size: 17px;
 }
-
-.aboutcontent .right {
-  padding: 30px;
-  flex: 1; /* Added */
-}
-
-.aboutcontent .left {
-  padding: 8px;
-  flex: 1; /* Added */
-  font-size: 20px;
+.right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
 }
 
-.aboutcontent .right img {
-  max-width: 100%; /* Ensure the image doesn't overflow its container */
-}
-
-@media screen and (max-width: 960px) {
+/* Media query for mobile devices */
+@media (max-width: 768px) {
   .aboutcontent {
-    flex-direction: column; /* On mobile, stack elements vertically */
-    text-align: center;
-    font-size: 12px;
-  }
-  .aboutcontent h1 {
-    font-size: 30px;
-padding-left: 30px;
-  }
-  
-  .aboutcontent p {
-    font-size: 16px;
-    padding: 3px;
-    margin-top: 12px;/* Adjust text size for mobile */
-  }
-  .aboutcontent .right img {
-    max-width: 80%; /* Adjust the image width for mobile */
-    margin-top: 20px; /* Add some space between text and image */
+    flex-direction: column; /* Stack elements for mobile */
+    text-align: center; /* Center text in mobile view */
   }
 
-  .aboutcontent .left,
-  .aboutcontent .right {
-    padding: 10px;
-     /* Adjust padding for mobile */
+  .left {
+    order: 2; /* Change the order of the left content */
   }
 
-  .page-icon {
-    font-size: 80px;
+  .right {
+    order: 1; /* Change the order of the right content */
   }
-}
-.left{
-  font-size: 2px;
-}
-/* Footer CSS */
-.footer__container {
-  background-color: #000000;
-  color: white;
-  padding: 5rem 0;
-  text-align: center;
-}
 
-.website__rights {
-  color: #ffffff;
+  img {
+    max-width: 100%; /* Make sure the image doesn't overflow its container */
+  }
 }

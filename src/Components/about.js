@@ -8,23 +8,23 @@ function About() {
       <div className="left">
         <h1>About</h1>
         <p>
-          Our incredible journey from a start up to a global Innovation Hub
+          Our incredible journey from a start-up to a global Innovation Hub
           Centre, our vision to deliver a Better Future for Digital
-          Transformation for our clients and build digital product that create
-          positive impact around the world.
-        </p>
-        <p>
-            Our clients and the world has been reinvigorated through our
+          Transformation for our clients and build digital products that create
+          a positive impact around the world.
+      
+        <br/>
+          Our clients and the world have been reinvigorated through our
           continued delivery of innovative solutions driven by technology and
-          data.
-        </p>
-        <p>
-          Our vision is to redefine waste collection and managing waste in local
-          communities through the collective effort of all stakeholders using
-          technology, innovation and education for mutual economic, ecological
-          and social benefits.
-        </p>
-        <p>Our vision is in line with the SDG goals</p>
+          data.<br/>
+     
+      
+          Our vision is to redefine waste collection and managing waste in
+          local communities through the collective effort of all stakeholders
+          using technology, innovation, and education for mutual economic,
+          ecological, and social benefits.
+       
+        <br/>Our vision is in line with the SDG goals</p>
 
         <p>
           To become the national app for waste management, the app will provide
@@ -35,10 +35,8 @@ function About() {
       </div>
 
       <div className="right">
-        <img src={image} />
+        <img src={image} alt="Dustbin" />
       </div>
-
-      <div></div>
     </div>
   );
 }

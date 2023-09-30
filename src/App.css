@@ -34,6 +34,15 @@
   width: 100%;
 }
 
+.footer__container {
+  background-color: #000000;
+  color: white;
+  padding: 5rem 0;
+  text-align: center;
+  margin-top: 0px;
+  
+}
+
 @media screen and (max-width: 960px) {
   .Welcome,
   .home,
@@ -48,13 +57,7 @@
   }
 }
 /* Footer CSS */
-.footer__container {
-  background-color: #000000;
-  color: white;
-  padding: 5rem 0;
-  text-align: center;
-  
-}
+
 
 .website__rights {
   color: #ffffff;

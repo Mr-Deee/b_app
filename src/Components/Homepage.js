@@ -1,6 +1,6 @@
 import React from "react";
 import "./home.css";
-import image1 from "../images/app.jpg";
+import image1 from "../images/app.png";
 import image2 from "../images/pickupwaste.JPG";
 import { Link } from "react-router-dom";
 
@@ -40,7 +40,7 @@ function Homepage() {
         <h1>Our Services</h1>
         <div className="above">
           <div className="servicecard">
-            <p>Waste pickup</p>
+            <p className="servicehead">Waste pickup</p>
             <br></br>
             <div className="icons">
               <img src={image2} className="icon" />
@@ -52,7 +52,7 @@ function Homepage() {
             </div>
           </div>
           <div className="servicecard">
-            <p>Waste disposal</p>
+            <p className="servicehead">Waste disposal</p>
             <br></br>
             <p>
               Rely on us for efficient and responsible waste management. We
@@ -63,7 +63,7 @@ function Homepage() {
         </div>
         <div className="below">
           <div className="servicecard">
-            <p>Recycling</p>
+            <p className="servicehead">Recycling</p>
             <br></br>
             <p>
               Take a green step forward. Our recycling services simplify
@@ -72,7 +72,7 @@ function Homepage() {
             </p>
           </div>
           <div className="servicecard">
-            <p>Bin Order Replacement</p>
+            <p className="servicehead">Bin Order Replacement</p>
             <br></br>
             <p>
               Need a new waste bin or a replacement? Our service makes ordering

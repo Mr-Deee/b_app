@@ -11,6 +11,21 @@
   border-radius: 20px;
   padding: 20px;
 }
+.servicecard1 {
+  background-color: #b6cc8b;
+  margin: 40px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 20px;
+  padding: 20px;
+}
+.servicecard2 {
+  background-color: #b6cc8b;
+  margin: 40px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 20px;
+  padding: 20px;
+  width: 1150px;
+}
 .above {
   display: flex;
   align-items: center;
@@ -22,17 +37,17 @@
   align-items: center;
   justify-content: center;
 }
-.icon {
+.iconn {
   width: 80px;
   
 }
-.icons {
+.iconns {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.icons p{
+.iconns p{
 padding-left: 10px;
 }
 
@@ -159,12 +174,12 @@ height: 700px;
   .servicecard {
    
   }
-  .icons {
+  .iconns {
     display: list-item;
     align-items: flex-start;
     justify-content: flex-start;
   }
-   .icon {
+   .iconn {
   margin-left: 110px;
 
    }

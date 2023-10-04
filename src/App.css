@@ -42,6 +42,22 @@
   margin-top: 0px;
   
 }
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+.icons {
+  color: #171717;
+  padding: 13px;
+  margin: 10px;
+  background-color: #b6cc8b;
+  border-radius: 10px;
+  box-shadow: #5A5A5A 0px 2.5px 7.5px;
+}
 
 @media screen and (max-width: 960px) {
   .Welcome,

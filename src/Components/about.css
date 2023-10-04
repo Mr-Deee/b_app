@@ -5,7 +5,9 @@
   align-items: center;
   padding: 20px;
 }
-
+.head {
+  text-align: center;
+}
 .div2{
   display: none;
 }
@@ -31,11 +33,16 @@ margin-left: 40%;
 .left img{
   width: 400px;
 }
+
 .readmore {
   background: black;
   border-radius: 10px;
   width: 200px;
   cursor: pointer;
+  display: none;
+}
+
+.hide {
   display: none;
 }
 .readmore p{
@@ -66,6 +73,7 @@ margin-left: 40%;
     max-width: 100%; /* Make sure the image doesn't overflow its container */
   }
 
+
   .readmore {
     background: black;
     border-radius: 10px;
@@ -74,6 +82,26 @@ margin-left: 40%;
     display: block;
   }
   .readmore p{
+    color: #b6cc8b;
+    padding: 15px;
+  }
+
+
+  .readmoredisplay ~ .hide {
+    display: block;
+  }
+  .readmore ~ .hide {
+    display: none;
+  }
+
+  .hide {
+    background: black;
+    border-radius: 10px;
+    width: 200px;
+    cursor: pointer;
+
+  }
+  .hide p{
     color: #b6cc8b;
     padding: 15px;
   }

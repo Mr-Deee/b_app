@@ -55,7 +55,10 @@ function Homepage() {
             <p className="servicehead">Waste pickup</p>
             <br></br>
             <div className="iconns">
-              <FontAwesomeIcon icon={faTrashAlt}></FontAwesomeIcon>
+              <FontAwesomeIcon
+                icon={faTrashAlt}
+                className="iconn"
+              ></FontAwesomeIcon>
               <p>
                 Our waste pickup service guarantees prompt and responsible waste
                 collection.Whether it's regular scheduled pickups or on-demand
@@ -67,7 +70,10 @@ function Homepage() {
             <p className="servicehead">Waste disposal</p>
             <br></br>
             <div className="iconns">
-              <FontAwesomeIcon icon={faTrashArrowUp}></FontAwesomeIcon>
+              <FontAwesomeIcon
+                icon={faTrashArrowUp}
+                className="iconn"
+              ></FontAwesomeIcon>
               <p>
                 Rely on us for efficient and responsible waste management. We
                 offer convenient solutions to dispose of waste, ensuring a
@@ -81,7 +87,10 @@ function Homepage() {
             <p className="servicehead">Recycling</p>
             <br></br>
             <div className="iconns">
-              <FontAwesomeIcon icon={faRecycle}></FontAwesomeIcon>
+              <FontAwesomeIcon
+                icon={faRecycle}
+                className="iconn"
+              ></FontAwesomeIcon>
               <p>
                 Take a green step forward. Our recycling services simplify
                 responsible disposal, promoting a cleaner environment and a
@@ -93,7 +102,10 @@ function Homepage() {
             <p className="servicehead">Bin Order Replacement</p>
             <br></br>
             <div className="iconns">
-              <FontAwesomeIcon icon={faDumpster}></FontAwesomeIcon>
+              <FontAwesomeIcon
+                icon={faDumpster}
+                className="iconn"
+              ></FontAwesomeIcon>
               <p>
                 Need a new waste bin or a replacement? Our service makes
                 ordering bins easy. Simply request a replacement, and we'll

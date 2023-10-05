@@ -5,7 +5,7 @@
 }
 
 .navbar {
-  background-color: rgb(255, 255, 255);
+  background-color: white;
   color: rgb(0, 0, 0);
   height: 80px;
   display: flex;
@@ -61,7 +61,7 @@
 }
 
 .nav-item:hover {
-  border-bottom: 2px solid #09bef0;
+  border-bottom: 2px solid #b6cc8b;
 }
 
 .nav-links {
@@ -74,7 +74,7 @@
 }
 
 .activated {
-  color: #09bef0;
+  color: #b6cc8b;
 }
 
 .fa-bars {
@@ -119,7 +119,7 @@
   }
 
   .nav-links:hover {
-    color: #09bef0;
+    color: #b6cc8b;
     transform: scale(1.2);
     transition: all 0.3s ease;
   }

@@ -1,11 +1,52 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 
+
+.servicecard {
+  width: 450px;
+  background-color: #b6cc8b;
+  height: 200px;
+  margin: 40px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 20px;
+  padding: 20px;
+}
+.above {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.below {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon {
+  width: 80px;
+  
+}
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icons p{
+padding-left: 10px;
+}
+
+.ourservices h1{
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
 
 .header-content {
   display: flex;
   flex-direction: row; /* Default: side-by-side for larger screens */
   justify-content: center;
   align-items: center;
+  height: 600px;
 }
 .header-content {
 margin-left: 39px;
@@ -17,8 +58,21 @@ margin-left: 39px;
   flex: 1; /* Take up remaining space */
 }
 
+.button{
+  background-color: black;
+  text-decoration: none;
+  color: #b6cc8b;
+  padding: 15px;
+  width: 200px;
+  border-radius: 10px;
+}
+.link{
+  text-decoration: none;
+  padding: 20px;
+}
+
 .header-content .right {
-  padding: 60px;
+  padding: 20px;
   flex: 1; /* Take up remaining space */
 }
 
@@ -42,15 +96,10 @@ margin-top: 30px;
 padding-top: 45px;
 
 }
-.homeextcard{
-  height: 200px;
-  margin-left: 50px;
-  margin-right: 50px;
-  
-
-  margin-bottom: 40px;
-  background-color: black;
-  border-radius: 54px;
+.ourservices{
+background: #b6cc8b;
+width: 100%;
+height: 700px;
 
 }
 @media screen and (max-width: 960px) {

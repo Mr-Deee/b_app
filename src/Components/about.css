@@ -8,7 +8,7 @@
 .head {
   text-align: center;
 }
-.div2{
+.mobile-display{
   display: none;
 }
 
@@ -40,14 +40,15 @@ margin-left: 40%;
   width: 200px;
   cursor: pointer;
   display: none;
+  color: #b6cc8b;
+  padding: 15px;
 }
 
 .hide {
   display: none;
 }
 .readmore p{
-  color: #b6cc8b;
-  padding: 15px;
+  
 
 }
 
@@ -65,7 +66,7 @@ margin-left: 40%;
   .right {
     order: 1; /* Change the order of the right content */
   }
-  .div2{
+  .mobile-display{
     display: block;
   }
 
@@ -91,7 +92,7 @@ margin-left: 40%;
     display: block;
   }
   .readmore ~ .hide {
-    display: none;
+   
   }
 
   .hide {
@@ -99,6 +100,7 @@ margin-left: 40%;
     border-radius: 10px;
     width: 200px;
     cursor: pointer;
+    display: block;
 
   }
   .hide p{

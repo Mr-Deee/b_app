@@ -8,11 +8,10 @@ function About() {
   useEffect(() => {
     document.title = "Borla App";
   }, []);
-  const [content, setContent] = useState("");
+  const [isContentVisible, setContentVisibility] = useState(false);
 
-  const handleClick = (event) => {
-    event.currentTarget.disabled = true;
-    console.log("disabled button clicked");
+  const toggleContent = () => {
+    setContentVisibility(!isContentVisible);
   };
   return (
     <>
@@ -23,42 +22,32 @@ function About() {
         </div>
 
         <div className="right">
-          <p>
+          <div className="mobile-display">
             Our incredible journey from a start-up to a global Innovation Hub
             Centre, our vision to deliver a Better Future for Digital
             Transformation for our clients and build digital products that
             create a positive impact around the world.
-            <div className="div2">{content}</div>
-            <button
-              className="readmore"
-              onClick={() => {
-                setContent(
-                  <div className="readmoredisplay">
-                    Our clients and the world have been reinvigorated through
-                    our continued delivery of innovative solutions driven by
-                    technology and data. Our vision is to redefine waste
-                    collection and managing waste in local communities through
-                    the collective effort of all stakeholders using technology,
-                    innovation, and education for mutual economic, ecological,
-                    and social benefits. Our vision is in line with the SDG
-                    goals To become the national app for waste management, the
-                    app will provide a platform for all stakeholders in the
-                    value chain to operate at maximum efficiency and profit and
-                    with strategies to attain existing users and attract others.
-                  </div>
-                );
-              }}
-            >
-              <p>Read more...</p>
+            {isContentVisible && (
+              <div>
+                <p> </p>
+                Our clients and the world have been reinvigorated through our
+                continued delivery of innovative solutions driven by technology
+                and data. Our vision is to redefine waste collection and
+                managing waste in local communities through the collective
+                effort of all stakeholders using technology, innovation, and
+                education for mutual economic, ecological, and social benefits.
+                Our vision is in line with the SDG goals To become the national
+                app for waste management, the app will provide a platform for
+                all stakeholders in the value chain to operate at maximum
+                efficiency and profit and with strategies to attain existing
+                users and attract others.
+              </div>
+            )}
+            <button onClick={toggleContent} className="readmore">
+              {isContentVisible ? "Hide Content" : "Read More"}
             </button>
-            <button
-              className="hide"
-              onClick={() => {
-                setContent(<div></div>);
-              }}
-            >
-              <p>Hide</p>
-            </button>
+          </div>
+          <p>
             <div className="readmorecontent">
               <div className="div1">
                 <br />

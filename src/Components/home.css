@@ -24,7 +24,7 @@
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   border-radius: 20px;
   padding: 20px;
-  width: 1150px;
+  
 }
 .above {
   display: flex;
@@ -183,6 +183,15 @@ height: 700px;
   margin-left: 110px;
 
    }
+
+   .servicecard2 {
+    background-color: #b6cc8b;
+    margin: 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 20px;
+    padding: 20px;
+
+  }
 .header-content .right {
   padding: 20px;
   flex: 1; /* Take up remaining space */

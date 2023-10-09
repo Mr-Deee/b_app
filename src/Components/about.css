@@ -76,6 +76,7 @@ margin-left: 40%;
    color: blue;
    background: none;
    border: none;
+   cursor: pointer;
   }
   .readmore p{
     color: #b6cc8b;
